@@ -1,4 +1,4 @@
-const three = require("three");
+import * as three from "three";
 const app = document.getElementById("app");
 
 const scene = new three.Scene();
@@ -13,7 +13,7 @@ app.appendChild(renderer.domElement);
 scene.add(cube);
 camera.position.z = 5;
 
-var render = function() {
+const render = function render() {
   requestAnimationFrame(render);
   cube.rotation.x += 0.1;
   cube.rotation.y += 0.1;
