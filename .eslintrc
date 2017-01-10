@@ -5,9 +5,10 @@
     "node": true
   },
   "rules": {
-    "quotes": [1, "double"],
-    "eol-last": [0],
+    "quotes": [2, "double"],
+    "indent": [2, 2],
+    "eol-last": [2, "always"],
     "no-mixed-requires": [0],
-    "no-underscore_dangle": [0]
+    "func-names": [2, "always"]
   }
 }
