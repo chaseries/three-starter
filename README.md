@@ -1,1 +1,1 @@
-Use ES2015 with Babel, ESLint, and Webpack
+Three.js with ES2015 syntax enabled by default.
